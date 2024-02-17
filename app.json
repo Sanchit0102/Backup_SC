@@ -1,0 +1,61 @@
+{
+    "name": "sanchit",
+    "description": "A Telegram bot Which Do Sample Video & Trim & Generate Screensot Bot",
+    "keywords": [
+        "telegram",
+        "sample",
+        "video",
+        "trim",
+        "screenshot",
+        "generator",
+        "python",
+        "based",
+        "powerful",
+        "bot"
+    ],
+    "repository": "https://github.com/Sanchit0102/Sample_Gen_BOT/",
+    "success_url": "/",
+    "logo": "https://i.postimg.cc/jjgVnXrV/20231106-110427.png",
+    "website": "https://github.com/Sanchit0102/Sample_Gen_BOT",
+    "env": {
+        "SESSION_NAME": {
+            "description": "Bot Session Name.",
+            "value": ":memory:"
+        },
+        "AUTH_USERS": {
+            "description": "AUTH USER ID's Seperated By space."
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather"
+        },
+        "LOG_CHANNEL": {
+            "description": "The LOG Channel ID. Read the readme for more info about this var"
+        },
+        "MAX_PROCESSES_PER_USER": {
+            "description": "The Maximum Limit Of Process Per User."
+        },
+        "DATABASE_URL": {
+            "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
+        },
+        "MAX_TRIM_DURATION": {
+            "description": "Maximum Trim Duration In Seconds."
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
