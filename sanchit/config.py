@@ -7,7 +7,7 @@ class Config:
     API_ID = int(os.environ.get('API_ID', 25833520))
     API_HASH = os.environ.get('API_HASH', '7d012a6cbfabc2d0436d7a09d8362af7')
     BOT_TOKEN = os.environ.get('BOT_TOKEN', '6362281925:AAGSTs25eytppfuN-AF-IMKCtxrvtxhXWJ8')
-    SESSION_NAME = os.environ.get('SESSION_NAME', 'sample')
+    NAME = os.environ.get('SESSION_NAME', 'sample')
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', -1002016803498))
     DATABASE_URL = os.environ.get('DATABASE_URL', 'mongodb+srv://trumbot:trumbot@cluster0.cfkaeno.mongodb.net/?retryWrites=true&w=majority')
     AUTH_USERS = [int(i) for i in os.environ.get('AUTH_USERS', '563896360 974706111 921365334').split(' ')]
