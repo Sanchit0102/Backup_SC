@@ -1,3 +1,4 @@
+#(©) 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
 from pyrogram import Client
 
 from .config import Config
