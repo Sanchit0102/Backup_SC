@@ -5,7 +5,7 @@ from ..config import Config
 from ..screenshotbot import ScreenShotBot
 
 
-@ScreenShotBot.on_message(Filters.private & Filters.command(start))
+@ScreenShotBot.on_message(Filters.private & Filters.command("start"))
 async def start(c, m):
 
     await m.reply_text(
