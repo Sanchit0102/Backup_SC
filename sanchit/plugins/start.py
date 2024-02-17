@@ -15,7 +15,7 @@ async def start(c, m)
             [
                 [
                     InlineKeyboardButton('Update Channel', url='https://t.me/The_Silent_Teams'),
-                    InlineKeyboardButton('Develpoer', url='https://t.me/The_DS_OFFICIAL')
+                    InlineKeyboardButton('Developer', url='https://t.me/The_DS_OFFICIAL')
                 ],
                 [
                     InlineKeyboardButton('Owner', url='https://t.me/Robo_5_0')
