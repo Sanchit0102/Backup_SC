@@ -9,7 +9,7 @@ from ..screenshotbot import ScreenShotBot
 async def start(c, m)
 
     await m.reply_text(
-        text=fHi there {m.from_user.mention}.nnI'm Screenshot Generator Bot. I can provide screenshots from your video files without downloading the entire file (almost instantly). For more details check help.,
+        text=Hi there {m.from_user.mention}. \n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files without downloading the entire file (almost instantly). For more details check help.
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
